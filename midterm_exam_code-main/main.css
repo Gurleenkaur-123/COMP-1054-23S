@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montez&display=swap');
+
+.wrapper {
+   /* background-color: darksalmon;*/
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(https://t3.ftcdn.net/jpg/03/51/51/28/360_F_351512882_2kFH8IaSe4lyA7SXBLzEXyGKNEgbO1iH.jpg);
+}
+
+article {
+   /* background-color: darkseagreen;*/
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h1{
+  /*  background-color: cadetblue;*/
+    font-family: 'Dancing Script', cursive;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+
+h3 {
+   /* background-color: blue;*/
+    font-family: 'Dancing Script', cursive;
+}
+
+table {
+    background-color: pink;
+    font-family: 'Dancing Script', cursive;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #f2f1f1;
+    font-size: /*14px*/ 1.4rem;
+}
+
+thead th:nth-child(1) {
+    width: 40%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 40%;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+
+/* TABLE TYPOGRAPHY  & APPEARANCE */
+
+thead th {
+    text-align: left;
+    text-decoration: underline;
+}
+
+tbody tr td:nth-of-type(2),
+tbody tr td:nth-of-type(3) {
+    text-align: center;
+}
+
+tfoot td {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+/*Zebra striping*/
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f1f1;
+}
+
+
+footer {
+    font-family: 'Satisfy', cursive;
+    padding: 3em 3em 3em;
+    position: sticky;
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
